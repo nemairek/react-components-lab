@@ -1,6 +1,9 @@
+
+
 const WeatherForecast = (props) => {
     const {forecast} = props
     return (
+        <section className='weather'>
 <ul>
      
    <li>
@@ -10,5 +13,6 @@ const WeatherForecast = (props) => {
       <p>{forecast.time}</p>
    </li>
     </ul>
+    </section>
     )}
 export default WeatherForecast;
