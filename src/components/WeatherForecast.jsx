@@ -1,9 +1,11 @@
-
+import '../WeatherForecast.css';
 
 const WeatherForecast = (props) => {
     const {forecast} = props
     return (
+        <section>
         <section className='weather'>
+            <span>
 <ul>
      
    <li>
@@ -13,6 +15,8 @@ const WeatherForecast = (props) => {
       <p>{forecast.time}</p>
    </li>
     </ul>
+    </span>
+    </section>
     </section>
     )}
 export default WeatherForecast;

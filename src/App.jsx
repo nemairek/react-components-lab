@@ -1,7 +1,7 @@
 // src/App.jsx
 
 import './App.css';
-import './WeatherForecast.css';
+
 import WeatherForecast from './components/WeatherForecast.jsx' ;
 
 const weatherForecasts = [
